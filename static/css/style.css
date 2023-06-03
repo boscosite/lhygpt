@@ -361,7 +361,7 @@ input[type="checkbox"]:checked + .check-trail .check-handler::before {
 }
 
 .message-bubble .request-icon{
-  background-image: url(../images/avatar.png);
+  background-image: url(../images/avatar.jpg);
 }
 
 .message-bubble .response-icon{
