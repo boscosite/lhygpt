@@ -182,7 +182,7 @@ $(document).ready(function() {
             localStorage.setItem("session",JSON.stringify(messages));
           }
         } else {
-          addFailMessage('出错啦！请稍后再试!');
+          addFailMessage('出错啦！请刷新网页或稍后再试!');
         }
       },
       complete : function(XMLHttpRequest,status){
