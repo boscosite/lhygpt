@@ -6,7 +6,7 @@ SECRET_KEY = "asghnjadfbtywyn"
 OPENAI_API_KEY = ""
 
 # openAi 官方 api
-URL = "https://api.keya.pw//v1/chat/completions"
+URL = "https://api.keya.pw/v1/chat/completions"
 
 # openAi 代理 api
 # URL = "https://api.keya.pw//v1/chat/completions"
