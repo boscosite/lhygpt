@@ -9,4 +9,4 @@ OPENAI_API_KEY = ""
 URL = "https://openai.1rmb.tk/v1/chat/completions"
 
 # openAi 代理 api
-# URL = "https://openai.1rmb.tk/v1/chat/completions"
+# URL = "https://ai.fastgpt.in/api/v1/chat/completions"
