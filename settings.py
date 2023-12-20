@@ -6,7 +6,7 @@ SECRET_KEY = "asghnjadfbtywyn"
 OPENAI_API_KEY = ""
 
 # openAi 官方 api
-URL = "https://openai.1rmb.tk/chat/completions"
+URL = "https://openai.1rmb.tk/v1/chat/completions"
 
 # openAi 代理 api
-# URL = "https://openai.1rmb.tk/chat/completions"
+# URL = "https://openai.1rmb.tk/v1/chat/completions"
