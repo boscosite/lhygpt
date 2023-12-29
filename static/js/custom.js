@@ -205,16 +205,7 @@ $(document).ready(function() {
     }
   })
 
-  // Enter键盘事件
-  function handleEnter(e){
-    if (e.keyCode==13){
-      chatBtn.click();
-      e.preventDefault();  //避免回车换行
-    }
-  }
-
-  // 绑定Enter键盘事件
-  chatInput.on("keydown",handleEnter);
+  
 
   // 设置栏宽度自适应
   let width = $('.function .others').width();
