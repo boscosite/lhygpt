@@ -101,7 +101,18 @@ $(document).ready(function() {
 
     // 判断消息是否是正常的标志变量
     let resFlag = true;
-   
+
+// Enter键盘事件
+  function handleEnter(e){
+    if (e.keyCode==13){
+      chatBtn.click();
+      e.preventDefault();  //避免回车换行
+    }
+  }
+
+  // 绑定Enter键盘事件
+  chatInput.on("keydown",handleEnter);
+    
     // 判断是否使用自己的api key
     let apiKey = localStorage.getItem('apiKey');
     if (apiKey){
